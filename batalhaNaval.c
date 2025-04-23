@@ -7,7 +7,7 @@
 int main() {
 
  int tabuleiro[10][10] = {
-{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 3},
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 {0, 0, 0, 0, 0, 0, 3, 3, 0, 0},
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -16,12 +16,13 @@ int main() {
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+{3, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 
 
 printf("O elemento na posição [6][3] é o navio\n", tabuleiro[6][3]);
 printf("O elemento na posição [8][3] é o navio\n", tabuleiro[8][3]);
-[8][3]
+printf("O elemento na posição [6][3] é o navio\n", tabuleiro[0][9]);
+printf("O elemento na posição [8][3] é o navio\n", tabuleiro[9][0]);
 
  }
  
